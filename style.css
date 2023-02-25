@@ -10,8 +10,7 @@ body {
 
 header {
     background-color: #ECF9FF;
-    height: 70vh;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 header > nav {
@@ -50,4 +49,22 @@ header > .headercontent {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    margin-top: 40px;
+    padding: 40px;
+}
+
+main > .about {
+    display: flex;
+    gap: 30px;
+}
+
+main > .about > .img {
+    background-image: url("images/justron.jpg");
+    height: 500px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
